@@ -53,7 +53,7 @@ header .container{
 }
 header .logo{
     margin: 0px;
-    padding: 18px;
+    padding: 10px;
     font-weight: bold;
     font-size: 30px;
     color: #A5C9CA;
@@ -172,14 +172,36 @@ spant{ color: #E7F6F2;
     transform: scale(1.2);
 }
 
-#disponibilidad .container-all h2{
+#disponibilidad h2{
     text-align: center;
     margin-left: 12px;
 }
-/* #disponibilidad .container-all ul li{
-    display: flex; 
-     */
-/* } */
+.container-all{
+    display: flex;
+}
+.container-all ul li{
+    margin: 30px 150px;
+}
+
+
+
+#listos .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #E7F6F2;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/images/listo3.jpg");
+    background-repeat: no-repeat;
+}
+
 
 /* #listos{
     background-image: url(/images/back-end.jpg);

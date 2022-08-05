@@ -191,23 +191,65 @@ spant{ color: #E7F6F2;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     color: #E7F6F2;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/images/listo3.jpg");
+    ,url("/images/listo.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
+#footer{
+    width: 100%;
+    background-color: #2C3333;
+}
 
-/* #listos{
-    background-image: url(/images/back-end.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 55px 0;
-    
-    height: 100vh;
+#footer .grupo-1{
+    width: 100%;
+    height: 380px;
+    max-width: 1200px;
+    margin: auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 50px;
+     padding: 45px 0px;
+}
+#footer .grupo-1 h2{
+    color: #E7F6F2;
+}
+
+#footer .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .grupo-1 .box figure p{
+    font-size: 36px;
+    color: #395B64;
+}
+#footer .grupo-1 .box p{
+    color: #E7F6F2;
+}
+/* #footer .grupo-1 .box .red-social i{
+    text-align: none;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #2C3320;
+    border-radius: 25px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+#footer .grupo-1 .box .red-social a .facebook:hover{
+    color: blue;
 } */
